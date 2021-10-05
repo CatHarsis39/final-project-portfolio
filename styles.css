@@ -15,7 +15,7 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #f5f5f5;
-  padding: 50px;
+  padding: 40px;
 }
 
 .link-footer {
@@ -26,4 +26,5 @@ footer {
 
 .sandrine-photo {
   max-width: 500px;
+  border-radius: 500px;
 }
