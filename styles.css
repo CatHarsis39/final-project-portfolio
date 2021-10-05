@@ -28,3 +28,17 @@ footer {
   max-width: 500px;
   border-radius: 500px;
 }
+
+.arrow-card {
+  display: block;
+  margin: 0, auto;
+}
+
+h3 {
+  text-align: center;
+}
+section {
+  text-align: right;
+  padding-bottom: 20px;
+  background-color: #fafafa;
+}
