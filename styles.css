@@ -1,11 +1,17 @@
 /* font-family: 'Playfair Display', serif;
- font-family: 'Poppins', sans-serif; */
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Montserrat', sans-serif; */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
 .logo {
   max-width: 80px;
 }
 
 .navbar-nav {
+  font-family: "Poppins", sans-serif;
   flex: 1;
   justify-content: flex-end;
 }
@@ -36,7 +42,9 @@ footer {
 
 h3 {
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
+
 section {
   text-align: right;
   padding-bottom: 20px;
