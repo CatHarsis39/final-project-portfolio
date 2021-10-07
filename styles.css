@@ -103,10 +103,31 @@ section {
   transition: all 0.2s;
 }
 
+.button-resume {
+  color: black;
+  text-decoration: none;
+  border: solid black;
+  padding: 50px;
+  margin: 50px;
+  padding: 10px;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
+}
+
 .quick-facts {
   margin: 100px;
 }
 
 .sandrine {
   max-width: 400px;
+}
+
+.download-cv {
+  text-align: center;
 }
