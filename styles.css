@@ -1,7 +1,8 @@
 /* font-family: 'Playfair Display', serif;
  font-family: 'Poppins', sans-serif;
  font-family: 'Montserrat', sans-serif; 
- font-family: 'Hammersmith One', sans-serif;*/
+ font-family: 'Hammersmith One', sans-serif;
+ .bgred {background: white;}*/
 
 body {
   font-family: "Poppins", sans-serif;
@@ -31,11 +32,6 @@ footer {
   padding: 5px;
 }
 
-.sandrine-photo {
-  max-width: 500px;
-  border-radius: 900px;
-}
-
 .arrow-card {
   display: block;
   margin: 0, auto;
@@ -44,12 +40,19 @@ footer {
 h3 {
   text-align: center;
   font-family: "Hammersmith One", sans-serif;
+  color: black;
 }
 
 section {
   text-align: right;
   padding-bottom: 20px;
-  background-color: #fafafa;
+  background-image: url("Media/wall.jpg");
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
 .fas {
@@ -59,10 +62,6 @@ section {
 .navbar-light .navbar-nav .nav-link {
   font-size: large;
   color: black;
-}
-
-.bgred {
-  background: white;
 }
 
 #intro {
@@ -81,4 +80,21 @@ section {
 
 .nav-link {
   margin: 20px;
+}
+
+.button-homepage {
+  color: black;
+  text-decoration: none;
+  border: solid black;
+  padding: 50px;
+  margin: 50px;
+  padding: 10px;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
 }
