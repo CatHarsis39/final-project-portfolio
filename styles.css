@@ -101,6 +101,7 @@ section {
   color: black;
   text-align: center;
   transition: all 0.2s;
+  box-shadow: 5px 5px 10px rgba(156, 115, 115, 0.1);
 }
 
 .button-resume {
@@ -118,6 +119,7 @@ section {
   color: black;
   text-align: center;
   transition: all 0.2s;
+  box-shadow: 5px 5px 10px rgba(156, 115, 115, 0.1);
 }
 
 .quick-facts {
