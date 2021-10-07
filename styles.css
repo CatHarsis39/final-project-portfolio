@@ -46,7 +46,7 @@ h3 {
 section {
   text-align: right;
   padding-bottom: 20px;
-  background-image: url("Media/wall.jpg");
+  background-image: url("Media/workpink.jpg");
   height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -97,4 +97,8 @@ section {
   color: black;
   text-align: center;
   transition: all 0.2s;
+}
+
+.quick-facts {
+  margin: 100px;
 }
