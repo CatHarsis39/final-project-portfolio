@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-  max-width: 70px;
+  max-width: 60px;
   margin-left: 100px;
 }
 
@@ -37,16 +37,26 @@ footer {
   margin: 0, auto;
 }
 
+h1 {
+  font-size: 700;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: 200;
+}
+
 h3 {
+  font-weight: 700;
+  font-style: italic;
   text-align: center;
-  font-family: "Hammersmith One", sans-serif;
-  color: black;
+  color: white;
 }
 
 section {
   text-align: right;
   padding-bottom: 20px;
-  background-image: url("Media/workpink.jpg");
+  background-image: url("Media/orange.jpg");
   height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -101,4 +111,8 @@ section {
 
 .quick-facts {
   margin: 100px;
+}
+
+.sandrine {
+  max-width: 400px;
 }
