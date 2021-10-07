@@ -32,7 +32,7 @@ footer {
 
 .sandrine-photo {
   max-width: 500px;
-  border-radius: 500px;
+  border-radius: 900px;
 }
 
 .arrow-card {
@@ -53,4 +53,22 @@ section {
 
 .fas {
   color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.bgred {
+  background: white;
+}
+
+#intro {
+  background-image: url("Media/pexels1.jpg");
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
