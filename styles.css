@@ -137,22 +137,3 @@ section {
 .portfolio {
   margin-top: 100px;
 }
-
-.btn-send {
-  display: block;
-  margin: 30px auto;
-  padding: -20px auto;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  width: 80%;
-}
-px .help-block.with-errors {
-  color: #ff5050;
-  margin-top: 5px;
-}
-
-.card {
-  margin-left: 10px;
-  margin-right: 10px;
-}

@@ -95,82 +95,88 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="text-center mt-5">
-        <h1>Contact me</h1>
-      </div>
-      <div class="row">
-        <div class="col-lg-7 mx-auto">
-          <div class="card mt-2 mx-auto p-4 bg-light">
-            <div class="card-body bg-light">
-              <div class="container">
-                <form id="contact-form" role="form">
-                  <div class="controls">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <br />
-                          <input
-                            id="form_name"
-                            type="text"
-                            name="name"
-                            class="form-control"
-                            placeholder="Please enter your full name"
-                            required="required"
-                            data-error="Firstname is required."
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <br />
-                          <input
-                            id="form_email"
-                            type="email"
-                            name="email"
-                            class="form-control"
-                            placeholder="Please enter your email address"
-                            required="required"
-                            data-error="Valid email is required."
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <br />
-                          <textarea
-                            id="form_message"
-                            name="message"
-                            class="form-control"
-                            placeholder="Write your message here."
-                            rows="4"
-                            required="required"
-                            data-error="Please, leave us a message."
-                          ></textarea>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <input
-                          type="submit"
-                          class="btn btn-dark btn-send pt-2 btn-block"
-                          value="Send Message"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
+
+    <!-- Wrapper container -->
+    <div class="container py-4">
+      <!-- Bootstrap 5 starter form -->
+      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <!-- Name input -->
+        <div class="mb-3">
+          <label class="form-label" for="name">Name</label>
+          <input
+            class="form-control"
+            id="name"
+            type="text"
+            placeholder="Name"
+            data-sb-validations="required"
+          />
+          <div class="invalid-feedback" data-sb-feedback="name:required">
+            Name is required.
           </div>
-          <!-- /.8 -->
         </div>
-        <!-- /.row-->
-      </div>
+
+        <!-- Email address input -->
+        <div class="mb-3">
+          <label class="form-label" for="emailAddress">Email Address</label>
+          <input
+            class="form-control"
+            id="emailAddress"
+            type="email"
+            placeholder="Email Address"
+            data-sb-validations="required, email"
+          />
+          <div
+            class="invalid-feedback"
+            data-sb-feedback="emailAddress:required"
+          >
+            Email Address is required.
+          </div>
+          <div class="invalid-feedback" data-sb-feedback="emailAddress:email">
+            Email Address Email is not valid.
+          </div>
+        </div>
+
+        <!-- Message input -->
+        <div class="mb-3">
+          <label class="form-label" for="message">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            type="text"
+            placeholder="Message"
+            style="height: 10rem"
+            data-sb-validations="required"
+          ></textarea>
+          <div class="invalid-feedback" data-sb-feedback="message:required">
+            Message is required.
+          </div>
+        </div>
+
+        <!-- Form submissions success message -->
+        <div class="d-none" id="submitSuccessMessage">
+          <div class="text-center mb-3">Form submission successful!</div>
+        </div>
+
+        <!-- Form submissions error message -->
+        <div class="d-none" id="submitErrorMessage">
+          <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+
+        <!-- Form submit button -->
+        <div class="d-grid">
+          <button
+            class="btn btn-primary btn-lg disabled"
+            id="submitButton"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
     </div>
+
+    <!-- SB Forms JS -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
     <footer class="page-footer font-small blue">
       <div class="footer-copyright text-center py-3">
