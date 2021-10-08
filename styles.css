@@ -194,5 +194,10 @@ section {
 }
 
 .skills {
+  margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.text-quick-fact {
+  margin-top: 100px;
 }
