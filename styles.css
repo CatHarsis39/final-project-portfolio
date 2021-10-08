@@ -69,7 +69,7 @@ section {
 }
 
 #intro {
-  background-image: url("Media/pexels1.jpg");
+  background-image: url("Media/compressed.jpg");
   height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -140,4 +140,14 @@ section {
 
 .form {
   margin: 50px 0;
+}
+
+.text-intro {
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
 }
