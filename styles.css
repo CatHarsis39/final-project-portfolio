@@ -154,8 +154,52 @@ section {
 
 .skills-description-wrapper {
   background-color: #f2e7e6;
+  padding-bottom: 50px;
+  padding-left: 150px;
 }
 
 .skills {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.fa-windows,
+.fa-handshake,
+.fa-chart-bar,
+.fa-football-ball,
+.fa-language,
+.fa-calendar-alt,
+.fa-building,
+.fa-windows,
+.fa-html5,
+.fa-css3-alt,
+.fa-js,
+.fa-bootstrap,
+.fa-github {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+@media (max-width: 576px) {
+  .fa-windows,
+  .fa-handshake,
+  .fa-chart-bar,
+  .fa-football-ball,
+  .fa-language,
+  .fa-calendar-alt,
+  .fa-building,
+  .fa-windows,
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js,
+  .fa-bootstrap,
+  .fa-github {
+    text-align: center;
+  }
+}
+
+.skill-text {
   text-align: center;
 }
