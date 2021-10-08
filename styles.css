@@ -201,3 +201,7 @@ section {
 .text-quick-fact {
   margin-top: 100px;
 }
+
+.hike {
+  max-width: 600px;
+}
