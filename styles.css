@@ -194,6 +194,7 @@ section {
 }
 
 .skills {
+  font-weight: 400;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -204,4 +205,17 @@ section {
 
 .hike {
   max-width: 600px;
+}
+
+.experience {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.position {
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 25px;
 }
