@@ -155,3 +155,7 @@ section {
 .skills-description-wrapper {
   background-color: #f2e7e6;
 }
+
+.skills {
+  text-align: center;
+}
