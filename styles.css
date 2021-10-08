@@ -154,14 +154,8 @@ section {
 
 .skills-description-wrapper {
   background-color: #f2e7e6;
-  padding-bottom: 50px;
-  padding-left: 150px;
-}
-
-.skills {
-  margin-top: 25px;
-  margin-bottom: 25px;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .fa-windows,
@@ -198,8 +192,4 @@ section {
   .fa-github {
     text-align: center;
   }
-}
-
-.skill-text {
-  text-align: center;
 }
