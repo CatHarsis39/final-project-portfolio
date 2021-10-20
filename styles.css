@@ -119,10 +119,6 @@ section {
   box-shadow: 5px 5px 10px rgba(156, 115, 115, 0.1);
 }
 
-.quick-facts {
-  margin: 60px;
-}
-
 .sandrine {
   max-width: 400px;
 }
@@ -196,50 +192,6 @@ section {
   margin-bottom: 25px;
 }
 
-.text-quick-fact {
-  margin-top: 100px;
-}
-
 .hike {
-  max-width: 600px;
-}
-
-.experience {
-  font-weight: 400;
-  text-align: center;
-  margin-top: 25px;
-}
-
-.volunteering-title {
-  font-weight: 400;
-  text-align: center;
-  margin-top: -15px;
-  margin-bottom: 40px;
-}
-
-.position {
-  font-size: 25px;
-  font-weight: 200;
-  text-align: center;
-  margin-top: 25px;
-}
-
-.volunteering {
-  margin-bottom: 25px;
-  padding: 40px;
-  background-color: #fafafa;
-}
-
-.EH {
-  max-width: 200px;
-}
-
-.eh-about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.link-eh {
-  color: black;
+  max-width: 500px;
 }
