@@ -66,6 +66,7 @@ section {
 .navbar-light .navbar-nav .nav-link {
   font-size: large;
   color: black;
+  margin: 20px;
 }
 
 #intro {
@@ -80,10 +81,6 @@ section {
 
 .card {
   margin: 35px;
-}
-
-.nav-link {
-  margin: 20px;
 }
 
 .button-homepage {
@@ -213,6 +210,13 @@ section {
   margin-top: 25px;
 }
 
+.volunteering-title {
+  font-weight: 400;
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+
 .position {
   font-size: 25px;
   font-weight: 200;
@@ -228,4 +232,14 @@ section {
 
 .EH {
   max-width: 200px;
+}
+
+.eh-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-eh {
+  color: black;
 }
