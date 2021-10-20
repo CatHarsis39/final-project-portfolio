@@ -2,6 +2,7 @@
  font-family: 'Poppins', sans-serif;
  font-family: 'Montserrat', sans-serif; 
  font-family: 'Hammersmith One', sans-serif;
+ font-family: 'Indie Flower', cursive;
  .bgred {background: white;}*/
 
 body {
@@ -193,5 +194,17 @@ section {
 }
 
 .hike {
-  max-width: 500px;
+  max-width: 550px;
+}
+
+.handwriting {
+  font-family: "Indie Flower", cursive;
+}
+
+.about-paragraphe {
+  font-size: 14px;
+}
+
+.list-facts {
+  list-style: georgian;
 }
