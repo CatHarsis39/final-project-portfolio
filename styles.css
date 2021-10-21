@@ -201,7 +201,9 @@ section {
 
 .handwriting {
   font-family: "Indie Flower", cursive;
+  font-weight: 500;
   text-align: center;
+  font-size: 35px;
 }
 
 .about-paragraphe {
