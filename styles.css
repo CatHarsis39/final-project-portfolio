@@ -102,24 +102,6 @@ section {
   box-shadow: 5px 5px 10px rgba(156, 115, 115, 0.1);
 }
 
-.button-resume {
-  color: black;
-  text-decoration: none;
-  border: solid black;
-  padding: 50px;
-  margin: 50px;
-  padding: 10px;
-  border: 0.1em solid black;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
-  box-sizing: border-box;
-  font-weight: 300;
-  color: black;
-  text-align: center;
-  transition: all 0.2s;
-  box-shadow: 5px 5px 10px rgba(156, 115, 115, 0.1);
-}
-
 .sandrine {
   width: 400px;
 }
@@ -245,4 +227,10 @@ section {
 
 .gif-reviews {
   width: 900px;
+}
+
+.cv-text {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
 }
