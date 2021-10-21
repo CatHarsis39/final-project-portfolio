@@ -121,7 +121,7 @@ section {
 }
 
 .sandrine {
-  max-width: 400px;
+  width: 400px;
 }
 
 .reviews-container {
@@ -239,4 +239,8 @@ section {
   .project-button {
     padding: 0.25em 0.75em;
   }
+}
+
+.gif-reviews {
+  width: 900px;
 }
