@@ -147,6 +147,7 @@ section {
 }
 
 .skills-description-wrapper {
+  max-width: 100%;
   background-color: #fafafa;
   text-align: center;
   padding-bottom: 50px;
