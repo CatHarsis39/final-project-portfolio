@@ -106,6 +106,10 @@ section {
   width: 400px;
 }
 
+.hike {
+  width: 500px;
+}
+
 .reviews-container {
   background-color: #fafafa;
 }
