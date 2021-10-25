@@ -282,6 +282,11 @@ section {
   padding: 20px;
 }
 
+.about-footer {
+  background-color: #fafafa;
+  padding: 40px;
+}
+
 #contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("Media/contact-compressed.jpg");
