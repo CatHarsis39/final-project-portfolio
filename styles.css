@@ -19,6 +19,11 @@ footer {
   padding: 40px;
 }
 
+.role {
+  font-family: "Indie Flower", cursive;
+  font-size: 21px;
+}
+
 h1 {
   font-size: 700;
   font-weight: bold;
@@ -26,6 +31,7 @@ h1 {
 
 h2 {
   font-weight: 200;
+  font-family: "Indie Flower", cursive;
 }
 
 h3 {
@@ -76,7 +82,7 @@ section {
 
 #intro {
   background-image: url("Media/compressed.jpg");
-  height: 80vh;
+  height: 70vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
