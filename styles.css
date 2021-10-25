@@ -268,12 +268,17 @@ section {
 
 /* --- Contact page */
 
+@media (max-width: 576px) {
+  .icon-contact {
+    margin: 20px;
+  }
+}
+
 .contact-bubble,
 .icon-contact {
   display: flex;
   justify-content: space-around;
   background-color: white;
-
   font-family: "Indie Flower", cursive;
 }
 
@@ -286,7 +291,7 @@ section {
   .contact-bubble {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: white;
   }
 }
