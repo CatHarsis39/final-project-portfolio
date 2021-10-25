@@ -89,7 +89,7 @@ section {
 }
 
 .quick-facts {
-  margin-top: 6.5rem;
+  margin-top: 6.4rem;
   margin-bottom: 4.6rem;
 }
 
@@ -125,6 +125,10 @@ section {
   p {
     text-align: center;
   }
+
+  .text-intro {
+    margin-top: 50px;
+  }
 }
 
 .skills-description-wrapper {
@@ -133,6 +137,12 @@ section {
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   text-align: center;
   padding-bottom: 50px;
+  margin-top: 6.4rem;
+}
+
+.random-facts {
+  margin-top: 4rem;
+  margin-bottom: 80px;
 }
 
 .fa-windows,
@@ -249,7 +259,7 @@ section {
   display: flex;
   justify-content: space-around;
   background-color: white;
-  margin-top: 100px;
+  margin-top: 80px;
   font-family: "Indie Flower", cursive;
 }
 
@@ -285,4 +295,24 @@ section {
   color: white;
   font-size: 70px;
   font-weight: bolder;
+}
+
+.projects {
+  margin-top: 6.4rem;
+}
+
+.row-project {
+  margin-top: 70px;
+}
+
+.about-row {
+  margin-top: 6.4rem;
+}
+
+.title-skills {
+  margin-top: -20px;
+}
+
+.box-icon {
+  padding: 25px;
 }
