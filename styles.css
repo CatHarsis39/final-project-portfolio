@@ -5,6 +5,8 @@
  font-family: 'Indie Flower', cursive;
  .bgred {background: white;}*/
 
+/* -- General -- */
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -84,24 +86,6 @@ section {
   margin: 35px;
 }
 
-.button-homepage {
-  color: black;
-  text-decoration: none;
-  border: solid black;
-  padding: 50px;
-  margin: 50px;
-  padding: 10px;
-  border: 0.1em solid black;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
-  box-sizing: border-box;
-  font-weight: 300;
-  color: black;
-  text-align: center;
-  transition: all 0.2s;
-  box-shadow: 5px 5px 10px rgba(156, 115, 115, 0.1);
-}
-
 .sandrine {
   width: 400px;
 }
@@ -112,10 +96,6 @@ section {
 
 .reviews-container {
   background-color: #fafafa;
-}
-
-.download-cv {
-  text-align: center;
 }
 
 .portfolio {
@@ -212,6 +192,7 @@ section {
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
     5px 5px 0px 0px;
   position: relative;
+  border-radius: 20px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -237,4 +218,49 @@ section {
   font-size: 20px;
   font-weight: 400;
   font-style: italic;
+}
+
+/* --- Contact page */
+
+.contact-bubble,
+.icon-contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 100px;
+  font-family: "Indie Flower", cursive;
+}
+
+.contact-bubble {
+  margin-bottom: 150px;
+}
+
+.contact-square {
+  font-size: 40px;
+}
+
+.contact-square a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-footer {
+  background-color: #fafafa;
+}
+
+#contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("Media/contact-compressed.jpg");
+  height: 60vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.contact-me-title {
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
 }
