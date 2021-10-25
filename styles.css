@@ -319,7 +319,14 @@ section {
 
 .row-project {
   margin-top: 70px;
+  margin-bottom: 70px;
 }
+
+@media (max-width: 576px) {
+  .row-project {
+   margin-top: -90px;
+  }
+
 
 .about-row {
   margin-top: 6.4rem;
