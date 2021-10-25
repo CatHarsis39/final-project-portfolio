@@ -239,17 +239,14 @@ section {
 @media (min-width: 576px) {
   .project-button {
     padding: 0.25em 0.75em;
-  
   }
 }
-
 
 @media (max-width: 576px) {
   .project-button {
     padding: 0.25em 0.75em;
     display: flex;
     justify-content: center;
-    
   }
 }
 
@@ -335,9 +332,9 @@ section {
 
 @media (max-width: 576px) {
   .row-project {
-   margin-top: -90px;
+    margin-top: -90px;
   }
-
+}
 
 .about-row {
   margin-top: 6.4rem;
