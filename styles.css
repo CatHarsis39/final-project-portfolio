@@ -282,6 +282,15 @@ section {
   margin-top: 6.4rem;
 }
 
+@media (max-width: 576px) {
+  .contact-bubble {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+  }
+}
+
 .contact-square {
   font-size: 40px;
 }
