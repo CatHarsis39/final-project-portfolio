@@ -280,11 +280,13 @@ section {
 .contact-footer {
   background-color: #fafafa;
   padding: 20px;
+  font-size: 14px;
 }
 
 .about-footer {
   background-color: #fafafa;
   padding: 40px;
+  font-size: 16px;
 }
 
 #contact {
