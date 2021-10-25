@@ -264,7 +264,7 @@ section {
 }
 
 .contact-bubble {
-  margin-bottom: 140px;
+  margin-bottom: 50px;
   margin-top: 6.4rem;
 }
 
@@ -279,6 +279,7 @@ section {
 
 .contact-footer {
   background-color: #fafafa;
+  padding: 20px;
 }
 
 #contact {
