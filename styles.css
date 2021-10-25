@@ -101,6 +101,9 @@ section {
 
 .reviews-container {
   background-color: #fafafa;
+  margin-top: 8rem;
+  padding-bottom: 9.6rem;
+  padding-top: 2rem;
 }
 
 .portfolio {
@@ -178,6 +181,11 @@ section {
   font-size: 35px;
 }
 
+#people-say {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
 .about-paragraphe {
   font-size: 14px;
 }
@@ -224,6 +232,12 @@ section {
   font-size: 20px;
   font-weight: 400;
   font-style: italic;
+}
+
+.download-cv {
+  margin-top: 140px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 /* --- Contact page */
