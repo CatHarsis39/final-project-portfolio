@@ -247,7 +247,7 @@ section {
 }
 
 .download-cv {
-  margin-top: 140px;
+  margin-top: 6.4rem;
   margin-bottom: 100px;
   text-align: center;
 }
@@ -259,12 +259,13 @@ section {
   display: flex;
   justify-content: space-around;
   background-color: white;
-  margin-top: 80px;
+
   font-family: "Indie Flower", cursive;
 }
 
 .contact-bubble {
-  margin-bottom: 150px;
+  margin-bottom: 140px;
+  margin-top: 6.4rem;
 }
 
 .contact-square {
@@ -289,6 +290,7 @@ section {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
+  margin-top: 35px;
 }
 
 .contact-me-title {
