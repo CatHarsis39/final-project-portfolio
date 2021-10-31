@@ -88,6 +88,7 @@ section {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
+  margin-top: 40px;
 }
 
 .card {
@@ -326,7 +327,7 @@ section {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
-  margin-top: 35px;
+  margin-top: 40px;
 }
 
 .contact-me-title {
